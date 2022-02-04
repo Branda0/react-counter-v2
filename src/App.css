@@ -1,1 +1,113 @@
 /* Other rules */
+/* Other rules */
+* {
+}
+
+.app-container {
+  font-family: "Montserrat", sans-serif;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.counters-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.counter-container {
+  margin: 5px;
+  display: flex;
+  width: 200px;
+  height: 150px;
+  flex-direction: column;
+}
+
+.counter-top {
+  display: flex;
+  height: 100px;
+  align-items: center;
+  justify-content: center;
+}
+
+.change-container {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+}
+
+.result-container {
+  width: 100px;
+  margin: 0 5px 0 5px;
+}
+
+.counter-reset {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn-plus,
+.btn-less {
+  height: 30px;
+  width: 30px;
+  border: none;
+  background: none;
+  color: white;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.btn-plus {
+  background-image: url(./img/increment.png);
+}
+
+.btn-less {
+  background-image: url(./img/decrement.png);
+}
+
+.result-container {
+  background-color: #5c48d3;
+  color: white;
+  font-size: 45px;
+  border-radius: 10px;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.add {
+  margin-top: 40px;
+  margin-bottom: 30px;
+  background-color: #5c48d3;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  font-size: 15px;
+  padding: 10px 10px 10px 10px;
+}
+
+.reset {
+  margin-top: 10px;
+  color: white;
+  background-color: #5c48d3;
+  font-size: 15px;
+  border-radius: 8px;
+  height: 30px;
+  width: 80px;
+  border: none;
+}
+
+.footer-container {
+  line-height: 120px;
+  /* height: 300px; */
+  text-align: center;
+  font-size: 15px;
+}
+b {
+  font-weight: 600;
+}
